@@ -6,7 +6,7 @@ set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 add_executable(stupid_sort main.cpp
-    stupid_sort.h stupid_sort.cpp)
+)
 
 include(GNUInstallDirs)
 install(TARGETS stupid_sort
